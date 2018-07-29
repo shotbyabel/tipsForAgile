@@ -1,0 +1,7 @@
+{
+  "name": "tipsForAgile",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
