@@ -23,7 +23,6 @@ export class QuotesPage {
   // ionViewDidLoad() {
   //   this.quoteGroup = this.navParams.data;
     // console.log('ionViewDidLoad QuotesPage');
-    //add the "elvis operator" ? in the template to use this method
-  }
+    //add the "elvis operator" ? in the template to use this method}
 
 }
