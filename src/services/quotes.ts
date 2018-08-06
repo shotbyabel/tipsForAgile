@@ -5,6 +5,8 @@ export class QuotesService {
 
     addQuoteToFavorites(quote: Quote) {
         this.favoriteQuotes.push(quote);
+    // checking the service/prodiver
+    console.log(this.favoriteQuotes);    
     }
 
     removeQuoteFromFavorites(quote: Quote) {
@@ -13,8 +15,10 @@ export class QuotesService {
         });
         this.favoriteQuotes.splice(position, 1);
     }
-    
+    // return us the erray
     getFavoriteQuotes() {
-        return this.favoriteQuotes.slice();
+        return this.favoriteQuotes.slice(); 
     }
+    //     passing a copy of the array instead of ref
+    // 
 }
