@@ -5,7 +5,7 @@ export class QuotesService {
 
     addQuoteToFavorites(quote: Quote) {
         this.favoriteQuotes.push(quote);
-    // checking the service/prodiver
+    // checking to see if it adds the favorited quote
     console.log(this.favoriteQuotes);    
     }
 
